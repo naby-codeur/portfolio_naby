@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Mouhamed Ndiaye | Portfolio</title>
+    <meta name="description" content="Découvrez les projets de Mouhamed Ndiaye : sites web, applications mobiles, e-commerce. Réalisations pour startups, PME et particuliers au Sénégal.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-footer.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo-footer.png">
+    <link rel="shortcut icon" type="image/png" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/logo-footer.png">
+    <link rel="apple-touch-icon" href="images/logo-footer.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="images/logo-footer.png" alt="N@by Codeur" class="loading-logo">
+            <div class="loading-text">N@by Codeur</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="display: flex; align-items: center; gap: 1rem; text-decoration: none;">
+                    <img src="images/logo.png" alt="N@by Codeur" class="logo-image">
+                    <div class="logo-text">
+                        <span class="logo-name">N@by Codeur</span>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="about.html" class="nav-link">À propos</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="projects.html" class="nav-link active">Projets</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content" data-aos="fade-up">
+                <h1 class="page-title">Mes projets</h1>
+                <p class="page-subtitle">Découvrez quelques-unes de mes réalisations</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>Projets</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="projects-hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-6"></div>
+            </div>
+            <div class="floating-tech-icons">
+                <div class="tech-icon tech-3">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="tech-icon tech-4">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-icon tech-5">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="tech-icon tech-6">
+                    <i class="fab fa-python"></i>
+                </div>
+                
+                <div class="tech-icon tech-9">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="tech-icon tech-10">
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+                <div class="tech-icon tech-11">
+                    <i class="fab fa-sass"></i>
+                </div>
+                <div class="tech-icon tech-12">
+                    <i class="fab fa-npm"></i>
+                </div>
+                <div class="tech-icon tech-13">
+                    <i class="fab fa-vue"></i>
+                </div>
+                <div class="tech-icon tech-14">
+                    <i class="fab fa-angular"></i>
+                </div>
+                <div class="tech-icon tech-16">
+                    <i class="fab fa-aws"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="projects-hero-content" data-aos="fade-up">
+                <h2>Portfolio de réalisations</h2>
+                <p>
+                    Explorez mes projets récents et découvrez comment j'ai aidé mes clients 
+                    à atteindre leurs objectifs digitaux. Chaque projet est unique et adapté 
+                    aux besoins spécifiques du client.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter-section">
+        <div class="container">
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Tous les projets</button>
+                <button class="filter-btn" data-filter="web">Sites Web</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="webapp">Applications Web</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Projet 1: Site Web Entreprise -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir le site">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Site Web</div>
+                        <h3>Site Web Entreprise</h3>
+                        <p>Site vitrine moderne pour une entreprise sénégalaise avec système de gestion de contenu et formulaire de contact.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>2 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: Entreprise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2: Boutique E-commerce -->
+                <div class="project-card" data-category="ecommerce" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir la boutique">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">E-commerce</div>
+                        <h3>Boutique en ligne</h3>
+                        <p>Plateforme e-commerce complète avec gestion des commandes, paiements sécurisés et administration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>6 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: PME</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3: Application Mobile -->
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Télécharger l'app">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Mobile</div>
+                        <h3>App Mobile Événements</h3>
+                        <p>Application mobile pour la gestion d'événements avec géolocalisation et notifications push.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Push Notifications</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>8 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: Startup</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4: Application Web -->
+                <div class="project-card" data-category="webapp" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir l'application">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Application Web</div>
+                        <h3>Plateforme de Gestion</h3>
+                        <p>Application web de gestion d'entreprise avec tableau de bord, rapports et gestion des utilisateurs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>10 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: Entreprise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 5: Site Web Restaurant -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir le site">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Site Web</div>
+                        <h3>Site Restaurant</h3>
+                        <p>Site web pour restaurant avec menu interactif, réservations en ligne et galerie photos.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>3 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: Restaurant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 6: CRM -->
+                <div class="project-card" data-category="webapp" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir l'application">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">CRM</div>
+                        <h3>Système CRM Complet</h3>
+                        <p>Plateforme CRM personnalisée avec gestion des clients, ventes, et analytics avancées.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>12 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: Entreprise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 7: ERP -->
+                <div class="project-card" data-category="webapp" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir l'application">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">ERP</div>
+                        <h3>Solution ERP Modulaire</h3>
+                        <p>Système ERP complet avec gestion des stocks, comptabilité, RH et rapports automatisés.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-clock"></i>
+                                <span>16 semaines</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-user"></i>
+                                <span>Client: PME</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Stats -->
+    <section class="project-stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Clients satisfaits</span>
+                    </div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction client</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="section-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+                <div class="shape shape-6"></div>
+            </div>
+            <div class="floating-tech-icons">
+                <div class="tech-icon tech-1">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="tech-icon tech-2">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="tech-icon tech-3">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="tech-icon tech-4">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="tech-icon tech-5">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="tech-icon tech-6">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="tech-icon tech-7">
+                    <i class="fab fa-php"></i>
+                </div>
+                <div class="tech-icon tech-8">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="tech-icon tech-9">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="tech-icon tech-10">
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+                <div class="tech-icon tech-11">
+                    <i class="fab fa-sass"></i>
+                </div>
+                <div class="tech-icon tech-12">
+                    <i class="fab fa-npm"></i>
+                </div>
+                <div class="tech-icon tech-13">
+                    <i class="fab fa-vue"></i>
+                </div>
+                <div class="tech-icon tech-14">
+                    <i class="fab fa-angular"></i>
+                </div>
+                <div class="tech-icon tech-15">
+                    <i class="fab fa-docker"></i>
+                </div>
+                <div class="tech-icon tech-16">
+                    <i class="fab fa-aws"></i>
+                </div>
+                <div class="tech-icon tech-17">
+                    <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="tech-icon tech-18">
+                    <i class="fab fa-mongodb"></i>
+                </div>
+                <div class="tech-icon tech-19">
+                    <i class="fab fa-figma"></i>
+                </div>
+                <div class="tech-icon tech-20">
+                    <i class="fab fa-wordpress"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Vous avez un projet en tête ?</h2>
+                <p>Travaillons ensemble pour créer quelque chose d'extraordinaire</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Discuter de votre projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="services.html" class="btn btn-secondary">
+                        <span>Voir mes services</span>
+                        <i class="fas fa-cogs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo-footer.png" alt="N@by Codeur" class="footer-logo">
+                    <div class="footer-brand-text">
+                        <h3>N@by Codeur</h3>
+                        <p>Développeur Web Full-Stack</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+221 77 201 33 64</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>codeurnaby@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Mouhamed Ndiaye. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="pages.js"></script>
+</body>
+</html>

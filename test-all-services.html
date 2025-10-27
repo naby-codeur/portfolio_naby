@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tous les Services - Naby Codeur</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9fafb;
+            padding: 2rem 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+        
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: #6b7280;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid #e5e7eb;
+            min-height: 300px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px 20px 0 0;
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .service-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        
+        .service-card p {
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .service-features {
+            list-style: none;
+            text-align: left;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .service-features li {
+            padding: 0.5rem 0;
+            color: #6b7280;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: 600;
+        }
+        
+        .debug-info {
+            background: #f3f4f6;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #374151;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="debug-info">
+            <strong>Debug:</strong> Test d'affichage des 6 services - Naby Codeur
+        </div>
+        
+        <div class="section-header">
+            <h2 class="section-title">Mes services</h2>
+            <p class="section-subtitle">Solutions complètes pour votre présence digitale</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>1. Développement Web</h3>
+                <p>Sites web modernes, responsives et optimisés pour tous les appareils avec les dernières technologies.</p>
+                <ul class="service-features">
+                    <li>Sites vitrines</li>
+                    <li>Applications web</li>
+                    <li>E-commerce</li>
+                    <li>Portails d'entreprise</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>2. Applications Mobile</h3>
+                <p>Applications mobiles natives et hybrides pour iOS et Android avec une expérience utilisateur optimale.</p>
+                <ul class="service-features">
+                    <li>Apps natives</li>
+                    <li>Apps hybrides</li>
+                    <li>PWA</li>
+                    <li>Maintenance</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>3. E-commerce</h3>
+                <p>Boutiques en ligne complètes avec gestion des commandes, paiements sécurisés et administration.</p>
+                <ul class="service-features">
+                    <li>Boutiques en ligne</li>
+                    <li>Paiements sécurisés</li>
+                    <li>Gestion des stocks</li>
+                    <li>SEO e-commerce</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>4. SEO & Performance</h3>
+                <p>Optimisation pour les moteurs de recherche et amélioration des performances de votre site web.</p>
+                <ul class="service-features">
+                    <li>Audit SEO</li>
+                    <li>Optimisation vitesse</li>
+                    <li>Analytics</li>
+                    <li>Maintenance</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>5. Solutions CRM & ERP</h3>
+                <p>Développement de systèmes de gestion d'entreprise sur mesure pour optimiser vos processus métier.</p>
+                <ul class="service-features">
+                    <li>CRM personnalisé</li>
+                    <li>Système ERP complet</li>
+                    <li>Tableaux de bord analytics</li>
+                    <li>Gestion des stocks</li>
+                </ul>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>6. Maintenance</h3>
+                <p>Maintenance et support technique pour assurer le bon fonctionnement de vos applications web.</p>
+                <ul class="service-features">
+                    <li>Maintenance préventive</li>
+                    <li>Mises à jour de sécurité</li>
+                    <li>Support technique 24/7</li>
+                    <li>Monitoring des performances</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
